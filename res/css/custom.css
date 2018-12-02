@@ -1,0 +1,203 @@
+html,body{
+	font-family: 'Nunito', sans-serif;
+}
+/* header section--------------------------------------------------------------------------------------------------------------------------*/
+.bg-cstm{
+	background-color: #1c5668 !important;
+	border-color: #1c5668 !important;
+	border-radius: 0px !important;
+}
+.bg-dark{
+	background-color: #00141A !important;
+	border-color: #00141A !important;
+	border-radius: 0px !important;
+}
+.navbar-brand{
+	font-family: 'Righteous', cursive !important;
+	letter-spacing: 2px !important;
+	font-size: 22px !important;
+	color: white !important;
+}
+.nav-link a{
+	color: white !important;
+	text-decoration: none !important;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+.nav-link a .fa{
+	font-size: 15px !important;
+}
+.header{
+	padding: 10px 50px;
+	background-color: #165669;
+	color: #fff;
+}
+.header-tag{
+	color: #888;
+}
+.header>div{
+  float: left;
+  padding: 0px 15px;
+}
+.header>div>div{
+  float: left;
+  padding: 0px 15px;
+}
+.header>.menu{
+  float: right;
+  padding: 0px 15px;
+}
+.header>.menu>div>a{
+	color:#fff;
+	text-decoration: none;
+}
+.header>.menu>div>a:hover{
+	color:#d2d2d2;
+}
+.header>.sm-menu>div>a{
+	color:#fff !important;
+	text-decoration: none !important;
+} 
+.header>.sm-menu>div>a:hover{
+	color:#d2d2d2 !important;
+}
+.show-cstm-sm{
+	display: none;
+}
+.hidden{
+	display: none;
+}
+/* Main Section---------------------------------------------------------------------------------------------------------------------------*/
+.main{
+	padding: 30px 50px;
+}
+.form-login{
+	padding: 50px;
+	border:1px solid #9a9a9a;
+}
+.form-login input{
+	margin-bottom:10px;
+	padding: 10px;
+	width: 100%;
+}
+.login-form{
+	padding: 10px 80px;
+}
+.login-form>b{
+	font-size: 22px;
+}
+.login-form>form{
+	padding-top: 10px; 
+}
+.login-form>form>input{
+	width: 100%;
+	padding: 10px;
+}
+/*registration.php*/
+.reg_err_msg{
+	border:1px solid red;
+	color:red;
+	padding: 10px;
+}
+/*home.php*/
+.btn-ico{
+	font-size: 30px;
+}
+.dash a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.dash div{
+	margin-bottom:10px;
+}
+.dash-btn{
+	border:1px solid #165669;
+	padding: 50px 0px;
+	box-shadow: 4px 4px 4px #ddd;
+}
+.dash-btn:hover{
+	box-shadow: 4px 5px 5px #ccc;
+}
+.dash-btn:active{
+	box-shadow: 2px 1px 1px #ccc;
+}
+
+.recent{
+	padding: 50px 0px 0px 0px;
+}
+.logout-btn a{
+	text-decoration: none;
+	color:#fff !important;
+}
+/* Footer section-------------------------------------------------------------------------------------------------------------------------*/
+.footer{
+	padding: 20px 50px;
+}
+ul.footer-links{
+  list-style-type: none;
+}
+ul.footer-links li{
+	margin-bottom: 10px;
+}
+ul.footer-links li a{
+	color: white;
+	text-decoration: none;
+}
+/*createpolling.php*/
+.poll textarea[name=qus]{
+	resize: none !important;margin-bottom: 10px;
+}
+.poll input[type=text]{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.poll select{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+/*Presentation.php*/
+.presentation_box{
+	margin-top: 10px;
+}
+.presentation_box .col-lg-8{
+
+}
+.presentation_box .option{
+	background-color: #fff;
+	border: 1px solid #d4d4d4;
+	padding: 15px;
+}
+.presentation_box .option .btn1,.btn2{
+	float: left;
+	margin:10px;
+	border: 1px solid #d4d4d4;
+	padding: 10px;
+	cursor:pointer;
+}
+/*accountsetting.php----------------------------------------------------------------------------------------------------------*/
+.acc-form{
+	padding: 50px 0px;
+	margin-bottom: 15px;
+}
+.accin{
+	margin:5px 0px;
+	padding: 4px 4px 6px 4px !important; 
+}
+/*Media queries----------------------------------------------------------------------------------------------------------------------------*/
+@media(max-width: 768px){
+	.login-form{
+		padding: 10px 30px;
+	}
+	.main{
+		padding: 30px 0px !important;
+	}
+	.hidden-cstm-sm{
+		display: none;
+	}
+	.show-cstm-sm{
+		display: block;
+	}
+	.header{
+		padding: 10px 0px;
+	}
+}
